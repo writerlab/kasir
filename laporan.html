@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LAPORAN KEUANGAN. KEDAI KOPI.</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fa/css/fa.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="header text-center pt-3 pb-3">
+          <div class="judul-header">
+            KEDAI <span class="primary">KOPI</span>.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- MENU/NAVIGASI -->
+    <div class="row">
+      <div class="col">
+        <nav class="nav justify-content-center pt-5 mb-5">
+            <a href="home.html" class="nav-link"><i class="fa fa-home fa-2x"></i></a>
+            <a href="pengguna.html" class="nav-link"><i class="fa fa-users fa-2x"></i></a>
+            <a href="masakan.html" class="nav-link"><i class="fa fa-glass fa-2x"></i></a>
+            <a href="transaksi.html" class="nav-link"><i class="fa fa-money fa-2x"></i></a>
+            <a href="laporan.html" class="nav-link"><i class="fa fa-file-o fa-2x"></i></a>
+            <a href="login.html" class="nav-link"><i class="fa fa-sign-out fa-2x"></i></a>
+        </nav>
+      </div>
+    </div>
+    <!-- TUTUP MENU/NAV -->
+
+
+    <!-- KONTEN -->
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h3>
+              Laporan Keuangan
+            </h3>
+          </div>
+          <div class="card-body">
+            <form action="cetak-laporan.html">
+              <div class="form-group">
+                <label for="awal">Bulan Awal</label>
+                <input type="date" id="awal" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="akhir">Bulan Akhir</label>
+                <input type="date" id="akhir" class="form-control">
+              </div>
+              <div class="form-group text-right">
+                <button class="btn btn-outline-dark btn-lg"><i class="fa fa-print"></i> Cetak</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TUTUP KONTEN-->
+  </div>
+
+</body>
+</html>
